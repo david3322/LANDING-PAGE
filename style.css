@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: wrap-reverse;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.logo h1 {
+    font-family: 'Lobster', sans-serif;
+    color: #180f4a;
+    font-size: 34px
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+ 
+#botao {
+    background-color: #180f4a;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 5%;
+    
+}
+
+#botao:hover{
+    border: none;
+    background  : #ff2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: wrap-reverse;
+    height: 600px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+    border: 1px solid #180f4a;
+
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180f4a;
+}
+
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex:40%;
+    text-align: center  ;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid #180f4a;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2 {
+    width:100% ;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    border: 1px solid #ff2978;
+    cursor: pointer;
+}
+
+.card:hover {
+    color: #ffffff;
+    background: #ff2978;
+}
